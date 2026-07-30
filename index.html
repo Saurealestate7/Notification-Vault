@@ -17,7 +17,7 @@
 <body>
 
 <h1>Notification Vault — Privacy Policy</h1>
-<p class="meta">Effective date: July 27, 2026 &nbsp;·&nbsp; Version 1.0</p>
+<p class="meta">Effective date: July 27, 2026 &nbsp;·&nbsp; Version 1.1</p>
 
 <h2>1. What we collect</h2>
 <p>Notification Vault reads the <strong>title, text, source app name, package identifier, and timestamp</strong> of notifications from apps you choose to track. You control exactly which apps are tracked, in the app's Apps screen. Notifications from apps you have not selected are never read or stored.</p>
@@ -29,11 +29,12 @@
 <p>Notification Vault uses two third-party services, each for a purpose unrelated to your notification content:</p>
 <ul>
   <li><strong>Firebase Crashlytics</strong> (crash diagnostics) — collects exception type, stack trace, device model, OS version, and app version to help us find and fix bugs. Crashlytics never receives notification titles, text, app names, or package names of tracked notifications. See <a href="https://firebase.google.com/support/privacy">Firebase's privacy policy</a>.</li>
-  <li><strong>RevenueCat</strong> (subscription management) — if you subscribe to Premium, RevenueCat receives purchase/subscription events, an anonymous app-user identifier, and basic device information, used solely to validate your purchase and manage your subscription entitlement. RevenueCat never has access to your captured notifications. See <a href="https://www.revenuecat.com/privacy">RevenueCat's privacy policy</a>.</li>
+  <li><strong>RevenueCat</strong> (subscription management) — RevenueCat receives an anonymous app-user identifier, basic device/app information, and subscription events where applicable, to load subscription offerings and manage entitlements. This happens each time the app is opened, not only if you purchase a subscription. RevenueCat never has access to your captured notifications. See <a href="https://www.revenuecat.com/privacy">RevenueCat's privacy policy</a>.</li>
 </ul>
 
 <h2>4. Data retention and deletion</h2>
-<p>You can delete your data at any time, directly in the app (Settings → Storage Management): a single notification, all notifications from one app, or everything. Deletion is immediate and permanent — there is no recycle bin.</p>
+<p><strong>Automatic retention:</strong> you can optionally set a history limit (in days) in Settings. By default, no automatic deletion happens — notifications are kept until you delete them yourself.</p>
+<p><strong>Manual deletion:</strong> you can delete a single notification, all notifications from one app, or everything, at any time (Settings → Storage Management). Deleted notifications are removed from the local database. Where the app displays an Undo action, deletion can be reversed during that brief Undo window; afterward it is permanent.</p>
 
 <h2>5. Data we do not collect</h2>
 <p>We do not collect your name, email address, phone number, location, contacts, photos, microphone or camera data, or advertising identifiers. Notification Vault has no user account system.</p>
